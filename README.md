@@ -1,43 +1,87 @@
-## Hi there 👋
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="mathfox — Roblox developer: Luau, Go, TypeScript, Studio plugins, MCP tooling">
+</p>
 
-### 🛠  My Technical Knowledge
+<p align="center">
+  <a href="https://t.me/+79673694995"><img src="https://img.shields.io/badge/Telegram-message_me-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:mathfox227@gmail.com"><img src="https://img.shields.io/badge/Gmail-mathfox227-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+  <img src="https://komarev.com/ghpvc/?username=mathfox&style=for-the-badge&color=1f6feb&label=profile+views" alt="profile views">
+</p>
 
-- Programming Languages
+<p align="center">
+  <img src="assets/terminal.svg" width="100%" alt="terminal: whoami, cat stack.luau, go run ./cmd/build-plugin, ship --event">
+</p>
 
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/ts.svg"> <img src="https://github.com/mathfox/mathfox/blob/main/icons/js.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/lua.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/python.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/rust.svg">
+## 🧱 What I build
 
-- General tech domain
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/docker.svg"> <img src="https://github.com/mathfox/mathfox/blob/main/icons/bash.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/vim.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/figma.svg">
+**🎮 Games**<br>
+Roblox experiences: training simulators and survival. Live-ops are data: events, updates, badges, game passes and dev products are TOML in the game's repo.
 
-- JS/TS domain
+</td>
+<td width="50%" valign="top">
 
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/html.svg"> <img src="https://github.com/mathfox/mathfox/blob/main/icons/css.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/sass.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/tailwind.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/nodejs.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/bun.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/deno.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/react.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/jest.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/vite.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/vitest.svg">
+**🧩 Studio plugins**<br>
+A suite of Studio plugins in Luau: keyframe animation with an exported runtime, an audio graph editor, an edit-time storybook, an asset explorer, hot module reload into playtests, and a plugin manager that enables and profiles them all. Bundled with **Lune**, installed with one **Go** command.
 
-- Roblox domain
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/robloxstudio.svg"> <img src="https://github.com/mathfox/mathfox/blob/main/icons/react.svg">
-<img src="https://github.com/mathfox/mathfox/blob/main/icons/jest.svg">
-<a href="https://roblox-ts.com"><img height="48px" src="https://github.com/mathfox/mathfox/blob/main/icons/robloxts.svg"></a>
-<a href="https://github.com/Ukendio/jecs"><img height="48px" src="https://github.com/mathfox/mathfox/blob/main/icons/jecs.svg"></a>
-<a href="https://github.com/matter-ecs/matter"><img height="48px" src="https://github.com/mathfox/mathfox/blob/main/icons/matter.svg"></a>
+**🤖 AI tooling**<br>
+MCP servers that let agents work in **Roblox Studio** and **Blender**: copy and sync instances between places, generate 3D assets with Tripo, drive Codex for images. Plus a local app that runs Claude Code and Codex on tasks and hands work between them.
 
-### 🤝🏻  Contacts
+</td>
+<td width="50%" valign="top">
 
-<a href="https://t.me/+79673694995"><img height="32px" src="https://github.com/mathfox/mathfox/blob/main/icons/telegram.svg"></a>
+**📡 Live-ops panel**<br>
+Keeps experience titles and page galleries in sync with the event schedule: `[🌙 LUNAR NIGHT] My Game` appears when the event starts, countdowns tick in the final hour. **Bun** + **React** + **Docker**.
 
-<img height="20px" src="https://github.com/mathfox/mathfox/blob/main/icons/gmail.svg"> mathfox227@gmail.com
+</td>
+</tr>
+</table>
+
+## 🛠 Stack
+
+<p>
+  <img src="icons/robloxstudio.svg" height="48" alt="Roblox Studio" title="Roblox Studio">
+  <a href="https://github.com/Ukendio/jecs"><img src="icons/jecs.svg" height="48" alt="jecs" title="jecs"></a>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=lua,go,ts,bun,nodejs,react&theme=dark" height="48" alt="Luau, Go, TypeScript, Bun, Node.js, React"></a>
+</p>
+<p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,blender,figma,vscode&theme=dark" height="48" alt="Docker, GitHub Actions, Git, Linux, Blender, Figma, VS Code"></a>
+</p>
+
+`Luau` · `jecs` · `Lune` · `Rokit` · `Go` · `TypeScript` · `Bun` · `MCP` · `Open Cloud` · `Docker` · `Blender`
+
+## 📈 A year of commits
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mathfox/mathfox/output/bricks.svg" width="100%" alt="contribution calendar as a skyline of bricks">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mathfox/mathfox/output/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mathfox/mathfox/output/snake.svg">
+    <img src="https://raw.githubusercontent.com/mathfox/mathfox/output/snake-dark.svg" width="100%" alt="snake eating the contribution graph">
+  </picture>
+</p>
+
+<sub>Both are rebuilt every 12 hours by a <a href=".github/workflows/profile-art.yml">workflow</a>; the brick skyline is drawn by <a href=".github/scripts/bricks.py">a small Python script</a>.</sub>
+
+## 📦 Open source
+
+| Project | What it is |
+| --- | --- |
+| [roblox-luau-utils](https://github.com/mathfox/roblox-luau-utils) | Basic Luau utilities to speed up Roblox game development |
+| [rbx-phantom](https://github.com/mathfox/rbx-phantom) | Immutable data manipulation library for Luau |
+| [rbx-better-immut](https://github.com/mathfox/rbx-better-immut) | Typings and helpers on top of `@rbxts/immut` for roblox-ts |
+| [rbx-janitor](https://github.com/mathfox/rbx-janitor) | Stack-based Janitor for cleaning up connections and instances |
+| [rbx-light-promise](https://github.com/mathfox/rbx-light-promise) | Lightweight Promise implementation in Luau |
+
+<sub>Older roblox-ts and Matter work lives in the <a href="https://github.com/mathfox?tab=repositories">repositories tab</a>.</sub>
