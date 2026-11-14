@@ -72,16 +72,8 @@ Keeps experience titles and page galleries in sync with the event schedule: `[ðŸ
   </picture>
 </p>
 
-<sub>Both are rebuilt every 12 hours by a <a href=".github/workflows/profile-art.yml">workflow</a>; the brick skyline is drawn by <a href=".github/scripts/bricks.py">a small Python script</a>.</sub>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mathfox/mathfox/output/activity.svg" width="100%" alt="commit times by weekday and hour">
+</p>
 
-## ðŸ“¦ Open source
-
-| Project | What it is |
-| --- | --- |
-| [roblox-luau-utils](https://github.com/mathfox/roblox-luau-utils) | Basic Luau utilities to speed up Roblox game development |
-| [rbx-phantom](https://github.com/mathfox/rbx-phantom) | Immutable data manipulation library for Luau |
-| [rbx-better-immut](https://github.com/mathfox/rbx-better-immut) | Typings and helpers on top of `@rbxts/immut` for roblox-ts |
-| [rbx-janitor](https://github.com/mathfox/rbx-janitor) | Stack-based Janitor for cleaning up connections and instances |
-| [rbx-light-promise](https://github.com/mathfox/rbx-light-promise) | Lightweight Promise implementation in Luau |
-
-<sub>Older roblox-ts and Matter work lives in the <a href="https://github.com/mathfox?tab=repositories">repositories tab</a>.</sub>
+<sub>All three are rebuilt every 12 hours by a <a href=".github/workflows/profile-art.yml">workflow</a>; the brick skyline and the punch card are drawn by <a href=".github/scripts">small Python scripts</a>.</sub>

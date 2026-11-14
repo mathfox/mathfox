@@ -23,6 +23,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      HAS_STATS_TOKEN: ${{ secrets.STATS_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v5
 
@@ -31,6 +33,17 @@ jobs:
         run: |
           mkdir -p dist
           python3 -I .github/scripts/bricks.py "${{ github.repository_owner }}" dist/bricks.svg
+
+      - name: Keep the last punch card
+        run: curl -sfL "https://raw.githubusercontent.com/${{ github.repository }}/output/activity.svg" -o dist/activity.svg || true
+
+      # Commit times need a read-only token that sees private repositories; without it the
+      # published activity.svg stays as it is.
+      - name: Activity punch card
+        if: env.HAS_STATS_TOKEN == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: python3 -I .github/scripts/activity.py "${{ github.repository_owner }}" dist/activity.svg 3
 
       - name: Snake
         uses: Platane/snk@v3
