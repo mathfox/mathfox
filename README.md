@@ -72,16 +72,4 @@ Keeps experience titles and page galleries in sync with the event schedule: `[ðŸ
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mathfox/mathfox/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mathfox/mathfox/output/pacman-contribution-graph.svg">
-    <img src="https://raw.githubusercontent.com/mathfox/mathfox/output/pacman-contribution-graph-dark.svg" width="100%" alt="Pac-Man eating the contribution graph">
-  </picture>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mathfox/mathfox/output/activity.svg" width="100%" alt="commit times by weekday and hour">
-</p>
-
-<sub>Everything above is rebuilt every 12 hours by a <a href=".github/workflows/profile-art.yml">workflow</a>; the brick skyline and the punch card are drawn by <a href=".github/scripts">small Python scripts</a>.</sub>
+<sub>Both are rebuilt every 12 hours by a <a href=".github/workflows/profile-art.yml">workflow</a>; the brick skyline is drawn by <a href=".github/scripts/bricks.py">a small Python script</a>.</sub>
