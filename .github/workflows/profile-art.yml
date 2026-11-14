@@ -1,6 +1,6 @@
 name: profile art
 
-# Rebuilds the contribution snake and the brick skyline every 12 hours and publishes them
+# Rebuilds the snake, Pac-Man, the brick skyline and the punch card every 12 hours and publishes them
 # to the `output` branch, which the README links to.
 on:
   schedule:
@@ -44,6 +44,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: python3 -I .github/scripts/activity.py "${{ github.repository_owner }}" dist/activity.svg 3
+
+      - name: Pac-Man
+        uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+          player_style: opportunistic
 
       - name: Snake
         uses: Platane/snk@v3
